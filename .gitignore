@@ -1,0 +1,28 @@
+# 🐳 Docker
+*.log
+*.pid
+docker-compose.override.yml
+.env
+ngrok.yml
+prepare_ngrok.sh~
+
+# 💻 Node / n8n (nếu dùng n8n tự host)
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 💡 VS Code
+.vscode/
+
+# 🔐 Mac / hệ điều hành
+.DS_Store
+Thumbs.db
+
+# 📦 Backups / files tạm
+*.bak
+*.tmp
+*.swp
+*.swo
